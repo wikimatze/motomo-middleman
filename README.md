@@ -14,7 +14,7 @@ Add `gem "piwik-middleman"` to your existing Gemfile and run `bundle install`.
 In your `config.rb` you can configure the settings as follow:
 
 ```ruby
-activate :piwik_middleman do |p|
+activate :piwikmiddleman do |p|
   p.domain = 'vimberlin.de'
   p.url = 'piwik'
   p.id = 1
