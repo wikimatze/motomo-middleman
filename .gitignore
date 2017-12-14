@@ -1,0 +1,15 @@
+# Ignore bundler lock file
+/Gemfile.lock
+
+# Ignore pkg folder
+/pkg
+
+bin/
+
+.DS_Store
+*~
+*.gem
+*.sass-cache
+.yardoc/*
+Gemfile.lock
+
