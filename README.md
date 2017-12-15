@@ -6,7 +6,16 @@ to use  [Piwik](https://piwik.org/).
 
 ## Installation
 
-Add `gem "piwik-middleman"` to your existing Gemfile and run `bundle install`.
+
+Clone the repository `git clone git@github.com:wikimatze/piwik-middleman.git ~/git/piwik-middleman`.
+Then add the following line to your `Gemfile`:
+
+
+```ruby
+gem 'piwik-middleman', path: "/home/wm/git/piwik-middleman/"
+```
+
+Run `bundle install`.
 
 
 ## Configuration
