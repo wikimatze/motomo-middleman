@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ['README.md']
 
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency("middleman-core", [">= 4.2.1"])
+  s.add_runtime_dependency 'middleman-core', '~> 4.2',
 end
