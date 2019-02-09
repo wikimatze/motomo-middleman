@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "matomo-middleman"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Matthias Guenther"]
   s.email       = ["matze@wikimatze.de"]
@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ['README.md']
 
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency 'middleman-core', '~> 4.2'
+  s.add_runtime_dependency 'middleman-core', '>= 4.2'
 end
