@@ -2,14 +2,14 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "motomo-middleman"
+  s.name        = "matomo-middleman"
   s.version     = "0.0.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Matthias Guenther"]
   s.email       = ["matze@wikimatze.de"]
-  s.homepage    = "https://github.com/wikimatze/motomo-middleman"
-  s.summary     = %q{Add tracking code for motomo}
-  s.description = %q{Add tracking code for motomo}
+  s.homepage    = "https://github.com/wikimatze/matomo-middleman"
+  s.summary     = %q{Add tracking helper for matomo}
+  s.description = %q{Add tracking code for matomo}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
