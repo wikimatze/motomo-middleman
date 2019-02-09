@@ -1,4 +1,5 @@
 # Matomo-Middleman
+[![Gem Version](https://badge.fury.io/rb/matomo-middleman.svg)](https://badge.fury.io/rb/matomo-middleman)
 
 It's an extension for the [Middleman](http://middlemanapp.com/) static site generator
 to use [Matomo](https://matomo.org/) tracking (previously known as [Piwik](https://matomo.org/blog/2018/01/piwik-is-now-matomo/)).
