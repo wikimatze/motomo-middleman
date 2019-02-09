@@ -1,4 +1,6 @@
 require "middleman-core"
-require "matomo-middleman/extension"
 
-Middleman::Extensions.register(:matomomiddleman, MatomoExtension)
+Middleman::Extensions.register :matomomiddleman do
+  require "matomo-middleman/extension"
+  MatomoExtension
+end
