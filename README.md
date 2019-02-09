@@ -1,4 +1,4 @@
-# Motomo-Middleman
+# Matomo-Middleman
 
 It's an extension for the [Middleman](http://middlemanapp.com/) static site generator
 to use [Matomo](https://matomo.org/) tracking (previously known as [Piwik](https://matomo.org/blog/2018/01/piwik-is-now-matomo/)).
@@ -6,12 +6,12 @@ to use [Matomo](https://matomo.org/) tracking (previously known as [Piwik](https
 
 ## Installation
 
-Clone the repository `git clone git@github.com:wikimatze/motomo-middleman.git ~/git/motomo-middleman`.
+Clone the repository `git clone git@github.com:wikimatze/matomo-middleman.git ~/git/matomo-middleman`.
 Then add the following line to your `Gemfile`:
 
 
 ```ruby
-gem 'motomo-middleman', path: "/home/wm/git/motomo-middleman/"
+gem 'matomo-middleman', path: "/home/wm/git/matomo-middleman/"
 ```
 
 Run `bundle install`.
@@ -22,7 +22,7 @@ Run `bundle install`.
 In your `config.rb` you can configure the settings as follow:
 
 ```ruby
-activate :motomomiddleman do |p|
+activate :matomomiddleman do |p|
   p.domain = '<your-domain>'
   p.url = '<your-url>'
   p.id = 1
@@ -35,7 +35,7 @@ end
 This plugin will add the following helper method:
 
 ```erb
-<%= motomo %>
+<%= matomo %>
 ```
 
 
