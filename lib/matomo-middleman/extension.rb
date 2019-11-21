@@ -22,13 +22,13 @@ class MatomoExtension < ::Middleman::Extension
   _paq.push(['enableLinkTracking']);
   (function() {
     var u=(("https:" == document.location.protocol) ? "https" : "http") + "://#{config[:matomo_domain]}/#{config[:matomo_url]}/";
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
+  _paq.push(['setTrackerUrl', u+'matomo.php']);
   _paq.push(['setSiteId', 1]);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-  g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  g.defer=true; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-    <noscript><p><img src="https://#{config[:matomo_domain]}/#{config[:matomo_url]}/piwik.php?idsite=#{config[:matomo_id]}" style="border:0;" alt="" /></p></noscript>
+    <noscript><p><img src="https://#{config[:matomo_domain]}/#{config[:matomo_url]}/matomo.php?idsite=#{config[:matomo_id]}" style="border:0;" alt="" /></p></noscript>
 END
     end
   end
